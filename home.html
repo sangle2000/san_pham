@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="./assest/css/style_store.css">
+    <link rel="stylesheet" href="./assest/css/style-item-detail.css">
+    <link rel="stylesheet" href="./assest/css/style_cart_pay.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="header__container">
+        <div class="header__form show">
+            <a href="./login.html" class="login">
+                <button type="button" class="btn btn-success">Đăng nhập</button>
+            </a>
+            <!-- <span>/</span> -->
+            <a href="./sign-up.html" class="sign-up">
+                <button type="button" class="btn btn-success">Đăng ký</button>
+            </a>
+        </div>
+
+        <div class="header__user"></div>
+        
+        <div class="header">
+            <div class="header__form-logo">
+                <div class="header__logo">
+                    <img class="logo" src="./assest/images/download-removebg-preview.png" alt="">
+                </div>
+    
+                <div class="user">
+                    <span class="user__item-cart">0</span>
+                    <i class="fa-solid fa-cart-shopping header__user-cart"></i>
+                </div>
+    
+                <div class="header__user-action hide">
+                    <ul class="user-action">
+                        <!-- <li class="user-action-cart">Xem giỏ hàng</li> -->
+                        <li class="user-action-log-out">Đăng xuất</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav__bar">
+                <span class="home-page active">Trang chủ</span>
+                <span class="introduce">Giới thiệu</span>
+                <span class="store">Cửa hàng</span>
+                <span class="contact">Liên hệ</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content__title">
+            <img class="content__title-begin-image" src="./assest/images/sinh-nhat-Lazada-2023.jpg" alt="Banner" srcset="">
+        </div>
+
+        <div class="famous-item">
+            <p class="famous-item-text">CÁC SẢN PHẨM NỔI BẬT</p>
+            <div class="product__store-item-list-top">
+                <div class="product__store-item-top w-30pt">
+                    <div class="product__store-image-top iphone14-image">
+                        <p class="product__store-image-text-top">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Iphone 14</p>
+                    <p class="product__store-item-price">35.000.000đ</p>
+                    <button class="product__store-item-btn-top">Xem nhanh</button>
+                </div>
+                
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image-top tv-image">
+                        <p class="product__store-image-text-top">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tivi</p>
+                    <p class="product__store-item-price">25.000.000đ</p>
+                    <button class="product__store-item-btn-top">Xem nhanh</button>
+                </div>
+    
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image-top tl-image">
+                        <p class="product__store-image-text-top">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tủ lạnh</p>
+                    <p class="product__store-item-price">10.000.000đ</p>
+                    <button class="product__store-item-btn-top">Xem nhanh</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-us" class="content__about-us">
+            <p class="content__about-us--title">All About Us</p>
+            <p class="content__about-us--year">Since 2022</p>
+            <div class="content__about-us--detail">
+                <div class="content__about-us--detail-1">
+                    <p class="content__about-us--detail-1-text"> 
+                        Bạn đang cần những thiết bị giúp tân trang cho ngôi nhà của mình? Bạn đang tìm kiếm những sản phẩm chất lượng, uy tín,
+                        giá cả phải chăng?
+                    </p>
+                </div>
+                <div class="content__about-us--detail-2">
+                    <p class="content__about-us--detail-2-text">
+                        Hãy đến với chúng tôi, nơi có tất cả những thứ bạn cần: Đa dạng sản phẩm, giá cả tốt, sản phẩm chất lượng,...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__store hide">
+            <div class="product__store-item-list">
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image tv-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tivi</p>
+                    <p class="product__store-item-price">10.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image tl-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tủ lạnh</p>
+                    <p class="product__store-item-price">25.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image tn-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tai nghe</p>
+                    <p class="product__store-item-price">2.500.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+            </div>
+
+            <div class="product__store-item-list">
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image iphone14-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Iphone 14</p>
+                    <p class="product__store-item-price">35.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image bp-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Bàn phím</p>
+                    <p class="product__store-item-price">1.400.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image vs-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Xe Vision</p>
+                    <p class="product__store-item-price">60.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+            </div>
+
+            <div class="product__store-item-list">
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image tc-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Tay cầm</p>
+                    <p class="product__store-item-price">500.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image ps4-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">PlayStation 4</p>
+                    <p class="product__store-item-price">36.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+
+                <div class="product__store-item w-30pt">
+                    <div class="product__store-image lt-image">
+                        <p class="product__store-image-text">Xem chi tiết</p>
+                    </div>
+                    <p class="product__store-item-title">Laptop</p>
+                    <p class="product__store-item-price">25.000.000đ</p>
+                    <button class="product__store-item-btn">Xem nhanh</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart hide">
+        <div class="cart-title">
+            <p class="cart-title-text">
+                <i class="fa-solid fa-arrow-right cart-icon"></i>
+                <span>Giỏ hàng</span>
+            </p>
+        </div>
+
+        <div class="cart-item-list">
+            
+        </div>
+
+        <div class="user-cart-bill-price"></div>
+
+        <div class="btn-pay-container">
+            <button class="btn-pay">Thanh toán</button>
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/tv.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Tivi</p>
+                <p class="item-detail-choose--price">10.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>  
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/tl.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Tủ lạnh</p>
+                <p class="item-detail-choose--price">25.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                    <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/tn.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Tai nghe</p>
+                <p class="item-detail-choose--price">2.500.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Đỏ </option>  
+                        <option value="105"> Hồng </option>  
+                    </select>  
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/ip14.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Iphone 14</p>
+                <p class="item-detail-choose--price">35.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Nâu vàng </option>  
+                        <option value="100"> Xanh </option>  
+                    </select>
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/bp.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Bàn phím</p>
+                <p class="item-detail-choose--price">1.400.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Loại:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Half key trắng </option>  
+                        <option value="100"> Half key đen </option>  
+                        <option value="150"> Full key trắng </option>  
+                        <option value="150"> Full key đen </option>  
+                    </select>  
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/vs.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Xe Vision</p>
+                <p class="item-detail-choose--price">60.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Xanh </option>  
+                    </select>  
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/tc.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Tay cầm</p>
+                <p class="item-detail-choose--price">500.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+            
+        </div>
+    </div>
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/ps.png" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">PlayStation</p>
+                <p class="item-detail-choose--price">36.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+            
+        </div>
+    </div>
+
+    <div class="item-detail-list hide">
+        <div class="item-detail">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image" src="./assest/images/lt.jpg" alt="">
+            </div>
+            
+            <div class="item-detail-choose">
+                <p class="item-detail-choose-title">Laptop</p>
+                <p class="item-detail-choose--price">25.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">RAM:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> 4GB </option>  
+                        <option value="150"> 8GB </option>   
+                    </select> 
+                </div>
+
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>     
+            
+        </div>
+    </div>
+
+    <div class="user-cart-pay hide">
+        <div class="user-cart-item-info">
+            <p class="user-cart-item-info-title">Giỏ hàng của tôi</p>
+            <div class="user-cart-item-info-list">
+
+            </div>
+        </div>
+
+        <div class="user-cart-bill">
+            <p class="user-cart-bill-title">Tóm tắt đơn hàng</p>
+            <div class="user-cart-bill-detail">
+                
+            </div>
+
+            <button class="user-pay-submit">Thanh toán</button>
+        </div>
+    </div>
+
+    <div class="quick-choose-item-container">
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/tv.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Tivi</p>
+                <p class="item-detail-choose--price">10.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/tl.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Tủ lạnh</p>
+                <p class="item-detail-choose--price">25.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/tn.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Tai nghe</p>
+                <p class="item-detail-choose--price">2.500.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Đỏ </option>  
+                        <option value="105"> Hồng </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/ip14.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Iphone 14</p>
+                <p class="item-detail-choose--price">35.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Nâu vàng </option>  
+                        <option value="100"> Xanh </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/bp.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Bàn phím/p>
+                <p class="item-detail-choose--price">1.400.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Loại:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Half key trắng </option>  
+                        <option value="100"> Half key đen </option>  
+                        <option value="150"> Full key trắng </option>  
+                        <option value="150"> Full key đen </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/vs.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Xe Vision</p>
+                <p class="item-detail-choose--price">60.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                        <option value="100"> Xanh </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/tc.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Tay cầm</p>
+                <p class="item-detail-choose--price">500.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/ps.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">PlayStation 4</p>
+                <p class="item-detail-choose--price">36.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">Màu:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> Đen </option>  
+                        <option value="100"> Trắng </option>  
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    
+        <div class="quick-choose-item hide">
+            <div class="item-detail-description">
+                <img class="item-detail-description-image quick-image" src="./assest/images/lt.jpg" alt="">
+            </div>
+    
+            <div class="item-detail-choose quick-choose">
+                <p class="item-detail-choose-title">Laptop</p>
+                <p class="item-detail-choose--price">25.000.000VNĐ</p>
+                <div class="select-weight font-12">
+                    <p class="select-weight-title">RAM:</p>
+                    <select class="weight-list">  
+                        <option value="" selected disabled hidden>Chọn</option>
+                        <option value="100"> 4GB </option>  
+                        <option value="150"> 8GB </option>   
+                    </select>  
+                </div>
+    
+                <div class="select-quantity">
+                    <p class="select-quantity-title font-12">Số lượng:</p>
+                    <!-- <input class="select-quantity-input" type="number" pattern="[0-9]*" max="999999" min="1" value="1"> -->
+                    <div class="select-quantity-btn paragraph">
+                        <span class="select-quantity-down"><i class="fa-solid fa-minus"></i></span>
+                        <span class="select-quantity-input"><input class="input-quantity" type="number" value="1" min="1" max="999"></span>
+                        <span class="select-quantity-up"><i class="fa-sharp fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                
+                <button class="submit-item-btn">Thêm vào giỏ hàng</button>
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <footer class="footer__page">
+        <div class="footer__contact">
+            <p class="footer__contact-title">Contact Us</p>
+            <div class="footer__contact-detail">
+                <div class="footer__contact-addr">
+                    <p class="footer__contact-addr-title title-style">Address</p>
+                    <p class="footer__contact-addr-detail">01, Vo Van Ngan Street, Thu Duc District, Ho Chi Minh City</p>
+                </div>
+
+                <div class="footer__contact-contact">
+                    <p class="footer__contact-contact-title title-style">Contact</p>
+                    <p class="footer__contact-contact-detail">0969 076 030</p>
+                    <p class="footer__contact-contact-detail">sanglht2000@gmail.com</p>
+                    <div class="footer__contact-contact-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100010400078116"><i class="fa-brands fa-facebook icon-style"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100010400078116"><i class="fa-brands fa-instagram icon-style"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__contact-opening">
+                    <p class="footer__contact-opening-title title-style">Opening Hours</p>
+                    <div class="footer__contact-opening-detail">
+                        <p class="opening-detail">Mon - Fri</p>
+                        <p class="opening-detail">8:00 am - 8:00 pm</p>
+                    </div>
+                    <div class="footer__contact-opening-detail">
+                        <p class="opening-detail">Saturday</p>
+                        <p class="opening-detail">9:00 am - 7:00 pm</p>
+                    </div>
+                    <div class="footer__contact-opening-detail">
+                        <p class="opening-detail">Sunday</p>
+                        <p class="opening-detail">9:00 am - 5:00 pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="policy">
+            <p class="policy__title">LAZADA</p>
+            <p class="policy__refund">Chính sách đổi trả - Hoàn tiền</p>
+            <p class="policy__pay">Chính sách giao hàng và thanh toán</p>
+            <div class="footer__contact-contact-icon policy-icon">
+                <a href="https://www.facebook.com/Bisranol/"><i class="fa-brands fa-facebook icon-style fb-icon"></i></a>
+                <i class="fa-brands fa-instagram icon-style"></i>
+            </div>
+            <p class="policy__extend">©2022 Copyright by LAZADA.</p>
+        </div>
+    </footer>
+    
+    <script src="./home.js"></script>
+</body>
+</html>
